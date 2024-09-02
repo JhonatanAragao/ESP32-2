@@ -60,7 +60,7 @@ function enviarComando(comando) {
         }
     }
 
-    xhttp.open("POST", "http://192.168.18.164/control", true);
+    xhttp.open("POST", "https://74f8-2804-25ac-306-da00-d8df-aba7-a97e-ad1c.ngrok-free.app/control", true);
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
     xhttp.send("comando=" + comando);
