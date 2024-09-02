@@ -21,7 +21,7 @@ function fazerPiscar(){
 //aqui está o código do sensor de temperatura
 async function obterTemperatura() {
     try {
-        const response = await fetch('https://74f8-2804-25ac-306-da00-d8df-aba7-a97e-ad1c.ngrok-free.app');
+        const response = await fetch('https://74f8-2804-25ac-306-da00-d8df-aba7-a97e-ad1c.ngrok-free.app/temperatura');
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
