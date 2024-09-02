@@ -1,0 +1,74 @@
+.botoesLedVerde {
+    margin-top: 20%;
+    margin-left: 0%;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+.botoesLedVermelho {
+    margin-top: 5%;
+    margin-left: 0%;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+.botaoVerde {
+    background-color: green;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    padding: auto;
+}
+
+.botaoVermelho {
+    background-color: rgb(146, 98, 98);
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    padding: auto;
+}
+
+.botaoFazerPiscar {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.fazerpiscar {
+    background-color: rgb(111, 86, 255);
+    border-radius: 25px;
+    border: 1px solid black;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    padding: auto;
+}
+
+.temperatura_container {
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+    
+}
+
+.legenda_container {
+    text-align: center;
+    width: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

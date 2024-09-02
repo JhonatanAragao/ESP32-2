@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="temperatura_container">
+        <span id="temperatura"></span> °C
+    </div>
+    <div class="legenda_container">
+        <span class="legenda">Temperatura Atual</span>
+    </div>
+
+    <div class="botoes">
+        <div class="botoesLedVerde">
+
+            <button class="botaoVerde" id="ligaVerde" onclick="ligarledVerde()">Ligar LED Verde</button>
+            <button class="botaoVerde" id="desligaVerde" onclick="desligarledVerde()">Desligar LED Verde</button>
+
+        </div>
+        <div class="botoesLedVermelho">
+
+            <button class="botaoVermelho" id="ligaVermelho" onclick="ligarledVermelho()">Ligar LED Vermelho</button>
+            <button class="botaoVermelho" id="desligaVermelho" onclick="desligarledVermelho()">Desligar LED Vermelho</button>
+
+        </div>
+        <div class="botaoFazerPiscar">
+            <button class="fazerpiscar" onclick="fazerPiscar()">Piscar LED's</button>
+        </div>
+
+    </div>
+
+    <!-- teste -->
+ 
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
